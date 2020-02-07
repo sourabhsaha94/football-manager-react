@@ -1,0 +1,11 @@
+{
+  "name": "football-simulator",
+  "version": "1.0.0",
+  "description": "football simulator",
+  "main": "football-simulator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sourabh Saha",
+  "license": "ISC"
+}

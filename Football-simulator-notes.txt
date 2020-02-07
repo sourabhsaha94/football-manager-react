@@ -1,0 +1,30 @@
+At a time t:
+- Pick a team which initiates the attack
+- Assign the ball to a player from that team to start the attack
+	- Based on the player's attributes decide what to do with the ball
+	- The player is given an option to pass, dribble or shoot
+	- The choice is picked based on various heuristics and the game progresses
+- The defending team relies on the positioning of the defenders at that time
+	- The defenders would be close to the attacker closest to them (marking)
+	- Interception vs Tackling would be decided based on certain heuristics
+- If the ball is intercepted or tackled, then the attack stops
+- Next time point is chosen for the players to begin the attack
+
+Each player (off the ball)
+- Defender
+	- Figure out the distance from the ball
+	- Figure out if you want to try and tackle, or stay behind and track your marker
+	- Figure out if you want to stay in your zone or move to a different one
+
+- Attacker
+	- Figure out the distance from the ball
+	- Figure out if you want to ask for pass or stay behind
+	- Figure out if you want to stay in your zone or move to a different one
+
+Player (on the ball)
+- Figure out your neighbouring players
+- Figure out the distance from the goal
+- Figure out the next action
+	- Figure out if you want to pass the ball
+	- Figure out if you want to dribble the ball
+	- Figure out if you want to shoot
